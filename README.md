@@ -36,3 +36,18 @@ If you want to execute the script manually you just have to enter this command:
 ```bash
 path/of/repo/clone/disable-middle-click-paste.sh "Name of your mouse"
 ```
+
+## Troubleshooting
+
+### I don't want to disable paste on middle click anymore
+
+If you don't want to disable the paste on middle click anymore all you to do is to remove (or comment) the script call from your `.xrinputrc`:
+
+```bash
+  vim ~/.xrinputrc
+```
+
+```
+  # Comment or remove this line
+  path/of/repo/clone/disable-middle-click-paste.sh "Name of your mouse"
+```
